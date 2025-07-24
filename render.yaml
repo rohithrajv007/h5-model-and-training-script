@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ecg-cnn-app
+    name: ECGMODEL
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
